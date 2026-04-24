@@ -5,8 +5,6 @@
 
 pub use readme_code_extractor_proc::{all, nth};
 
-/// No need to be public.
-///
 /// We can't report the actual version(s), because [panic] macro is not eager, and passing in
 /// (formatting) variables doesn't work in const context. See also
 /// <https://rustc-dev-guide.rust-lang.org/macro-expansion.html#eager-expansion>.
