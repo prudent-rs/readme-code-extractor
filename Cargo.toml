@@ -25,6 +25,3 @@ unknown_lints = { level = "forbid"}
 [dependencies]
 # EXACT VERSION with = prefix
 readme-code-extractor-proc = {version="= 0.0.1", path="../readme-code-extractor-proc"}
-
-[dev-dependencies]
-no-panic = "0.1.36"
