@@ -1,6 +1,3 @@
-#[cfg(debug_assertions)]
-compile_error!("Build in release mode only.");
-
 readme_code_extractor::all!(
     r##"
     file_path = "simple_no_panic.md"

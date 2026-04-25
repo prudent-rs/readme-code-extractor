@@ -6,4 +6,4 @@ edition = "2024"
 [dependencies]
 readme-code-extractor = {version="0.0.1", path=".."}
 no-panic = "0.1.36"
-trybuild = "1.0"
+snapbox = "1.2.1"
