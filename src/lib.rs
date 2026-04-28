@@ -3,7 +3,7 @@
 //#![doc = top_level!( )]
 //all_by_file!(top_level, "some-file.toml");
 
-pub use readme_code_extractor_proc::{all, nth};
+pub use readme_code_extractor_proc::{all, all_by_file, nth };
 
 /// We can't report the actual version(s), because [panic] macro is not eager, and passing in
 /// (formatting) variables doesn't work in const context. See also

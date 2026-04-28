@@ -1,0 +1,4 @@
+    file_path = "02_simple_by_file.md"
+    start_prefix = "#[::no_panic::no_panic] fn main() {"
+    
+    final_suffix = "}"
