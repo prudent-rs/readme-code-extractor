@@ -19,7 +19,7 @@ const _: () = {
 
 const fn is_exact_version(expected_version: &'static str) -> bool {
     // We can't use a comparison operator ==, because trait PartialEq is not const (in April 2026).
-    matches!(expected_version.as_bytes(), b"0.0.4")
+    matches!(expected_version.as_bytes(), b"0.0.6")
 }
 
 const _: () = {

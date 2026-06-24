@@ -2,6 +2,18 @@
 
 This includes changes from crate `mce-proc`.
 
+## 2026-June-24
+
+## Version 0.0.6
+
+- using `dis` version `0.0.4`
+
+## 2026-June-21
+
+## Version 0.0.5 (mce-lib only)
+
+- minor/internal
+
 ## 2026-May-28 (2026-May-29 in UTC)
 
 ## Version 0.0.4

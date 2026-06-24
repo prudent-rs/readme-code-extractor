@@ -1,6 +1,6 @@
 [package]
 name = "mce"
-version = "0.0.4"
+version = "0.0.6"
 
 edition = "2024"
 # Rust 1.88.0+ is required by mce-lib.
@@ -24,11 +24,10 @@ unknown_lints = { level = "forbid"}
 
 [dependencies]
 # EXACT VERSION with = prefix
-mce-proc = {version="= 0.0.4"}
-# For local development:
+# for local development:
 #
-#mce-proc = {version="= 0.0.3", path="../mce-proc"}
+# mce-proc = {version="= 0.0.6", path="../mce-proc"}
+mce-proc = {version="= 0.0.6"}
 
 [package.metadata.docs.rs]
 rustdoc-args = ["--cfg", "docsrs"]
-default-target = "x86_64-unknown-linux-gnu"

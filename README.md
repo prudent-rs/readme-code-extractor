@@ -80,7 +80,7 @@ MSRV (minimum supported Rust version), as indicated with `rust-version` in
 incorrect (false positive) `dead_code` warnings, unless you use Rust 1.89.0+. (See
 [rust-lang/rust#142208](https://github.com/rust-lang/rust/pull/142208).)
 
-## Related issues
+## Blockers and related issues
 
 Please give thumbs up (and contribute, if you can) to
 
